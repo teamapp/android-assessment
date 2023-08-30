@@ -16,4 +16,18 @@
         android:layout_alignLeft="@+id/image_view"
         />
 
+    <TextView android:id="@+id/likeView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/image_view"
+        android:layout_alignRight="@+id/image_view"
+        />
+
+    <TextView android:id="@+id/dateView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/likeView"
+        android:layout_alignRight="@+id/image_view"
+        />
+
 </RelativeLayout>

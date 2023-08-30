@@ -3,7 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_photos">Photos</string>
     <string name="title_article">Article</string>
-    <string name="first_photo">Photos 1</string>
-    <string name="second_photo">Photos 2</string>
-    <string name="third_photo">Photos 3</string>
+    <string name="first_photo">Author 1</string>
+    <string name="second_photo">Author 2</string>
+    <string name="third_photo">Author 3</string>
 </resources>

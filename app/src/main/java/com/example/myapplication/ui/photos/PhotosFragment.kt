@@ -17,6 +17,8 @@ import com.example.myapplication.R
 import com.example.myapplication.databinding.FragmentPhotosBinding
 import com.example.myapplication.ui.article.ArticleFragment
 import com.example.myapplication.ui.article.ArticleViewModel
+import java.text.SimpleDateFormat
+import java.util.Date
 
 class PhotosFragment : Fragment() {
 
@@ -38,6 +40,11 @@ class PhotosFragment : Fragment() {
             val imageTemplate = inflater.inflate(R.layout.image_template, null)
             imageTemplate.findViewById<ImageView>(R.id.image_view).background = BitmapDrawable(bitmap)
             imageTemplate.findViewById<TextView>(R.id.textView).text = imageName(index)
+            imageTemplate.findViewById<TextView>(R.id.likeView).text = "$index likes"
+            var tst = SimpleDateFormat("yy/MM/dd_HHmm")
+            var timestamp = tst.format(Date())
+            var pictureDate = "$timestamp"
+            imageTemplate.findViewById<TextView>(R.id.dateView).text = pictureDate
             imageTemplate.setOnClickListener {
                 (activity as MainActivity).setUrl(articleContentUrl(index))
                 (activity as MainActivity).setImages(images, index)
