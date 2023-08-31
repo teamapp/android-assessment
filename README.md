@@ -14,3 +14,12 @@ You are expected to improve and enhance the UI/UX of the app. Things such as nav
 Your implementation must be scalable, thread-safe, testable, readable and easily maintained using programming best practices. You may use third party standalone libraries as you see fit, but the use of invasive thirdparty frameworks is discouraged as it will make it difficult for us to assess your coding skills.
 
 You can put some comments within the code to explain your reasoning.
+
+## Submission
+
+- Git clone this repository.
+- Work through the coding test by following the instructions above.
+- Make sure each individual Git commit is cohesive.
+- Once your work is complete, make a PR.
+- There's no fixed deadline, but candidate's work speed is a factor we'll consider.
+- If you have any questions, feel free to contact us via Github issue. 
