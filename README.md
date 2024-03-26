@@ -17,8 +17,9 @@ You can put some comments within the code to explain your reasoning.
 
 ## Submission
 
+- Git clone this repositry 
 - Work through the coding test by following the instructions above.
 - Make sure each individual Git commit is cohesive.
-- Once your work is complete, make a PR.
+- Once your work is complete, push this to a new private repository and invite @yungronin and @hgani to the new repository for review
 - There's no fixed deadline, but candidate's work speed is a factor we'll consider.
 - If you have any questions, feel free to contact us via Github issue.
